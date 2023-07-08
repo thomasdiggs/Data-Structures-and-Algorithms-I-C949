@@ -36,26 +36,26 @@ public class DiggsThomasCS201Part2 {
 		capitalCities.put("Montana", "Helena");
 		capitalCities.put("Nebraska", "Lincoln");
 		capitalCities.put("Nevada", "Carson City");
-		capitalCities.put("New hampshire", "Concord");
-		capitalCities.put("New jersey", "Trenton");
-		capitalCities.put("New mexico", "Santa Fe");
-		capitalCities.put("New york", "Albany");
-		capitalCities.put("North carolina", "Raleigh");
-		capitalCities.put("North dakota", "Bismarck");
+		capitalCities.put("New Hampshire", "Concord");
+		capitalCities.put("New Jersey", "Trenton");
+		capitalCities.put("New Mexico", "Santa Fe");
+		capitalCities.put("New York", "Albany");
+		capitalCities.put("North Carolina", "Raleigh");
+		capitalCities.put("North Dakota", "Bismarck");
 		capitalCities.put("Ohio", "Columbus");
 		capitalCities.put("Oklahoma", "Oklahoma City");
 		capitalCities.put("Oregon", "Salem");
 		capitalCities.put("Pennsylvania", "Harrisburg");
-		capitalCities.put("Rhode island", "Providence");
-		capitalCities.put("South carolina", "Columbia");
-		capitalCities.put("South dakota", "Pierre");
+		capitalCities.put("Rhode Island", "Providence");
+		capitalCities.put("South Carolina", "Columbia");
+		capitalCities.put("South Dakota", "Pierre");
 		capitalCities.put("Tennessee", "Nashville");
 		capitalCities.put("Texas", "Austin");
 		capitalCities.put("Utah", "Salt Lake City");
 		capitalCities.put("Vermont", "Montpelier");
 		capitalCities.put("Virginia", "Richmond");
 		capitalCities.put("Washington", "Olympia");
-		capitalCities.put("West virginia", "Charleston");
+		capitalCities.put("West Virginia", "Charleston");
 		capitalCities.put("Wisconsin", "Madison");
 		capitalCities.put("Wyoming", "Cheyenne");
 		// Converting hash map to tree map. Added ability to lookup keys with case insensitivity.
@@ -66,7 +66,7 @@ public class DiggsThomasCS201Part2 {
 			System.out.println(entry.getValue() + ", " + entry.getKey());
 		});
 		// Asking user to enter any US state.
-        System.out.println("--------------------");
+        	System.out.println("--------------------");
 		System.out.println("Please enter a U.S. state:");
 		// Initializing variable to store user input for U.S. state.
 		String stateInput;
